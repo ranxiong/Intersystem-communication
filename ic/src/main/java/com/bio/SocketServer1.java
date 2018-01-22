@@ -1,4 +1,4 @@
-package com.socket.bio;
+package com.bio;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
