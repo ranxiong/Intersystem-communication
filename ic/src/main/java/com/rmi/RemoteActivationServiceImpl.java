@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * RMI Service的一个具体实现。注意这里我们继承的是Activatable父类
  *
- * @author yinwenjie
+ *
  */
 public class RemoteActivationServiceImpl extends Activatable implements RemoteServiceInterface {
 

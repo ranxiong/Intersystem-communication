@@ -19,7 +19,7 @@ import org.apache.log4j.BasicConfigurator;
  * JAVA AIO框架测试。请一定将
  * 《架构设计：系统间通信（4）——IO通信模型和JAVA实践 中篇》看了后再看本篇测试代码。
  * 这样对您理解代码的关键点非常有益。
- * @author yinwenjie
+ *
  */
 public class SocketServer {
 
@@ -61,7 +61,7 @@ public class SocketServer {
 /**
  * 这个处理器类，专门用来响应 ServerSocketChannel 的事件。
  * 还记得我们在《架构设计：系统间通信（4）——IO通信模型和JAVA实践 中篇》中所提到的内容吗？ServerSocketChannel只有一种事件：接受客户端的连接
- * @author yinwenjie
+ *
  */
 class ServerSocketChannelHandle implements CompletionHandler<AsynchronousSocketChannel, Void> {
     /**
@@ -114,7 +114,7 @@ class ServerSocketChannelHandle implements CompletionHandler<AsynchronousSocketC
  *
  * 但是最重要的，用于生成channel的对象：AsynchronousChannelProvider是单例模式，无论在哪组socketchannel，
  * 对是一个对象引用（但这没关系，因为您不会直接操作这个AsynchronousChannelProvider对象）。
- * @author yinwenjie
+ *
  */
 class SocketChannelReadHandle implements CompletionHandler<Integer, StringBuffer> {
     /**

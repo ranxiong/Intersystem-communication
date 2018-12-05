@@ -16,7 +16,7 @@ import java.net.SocketTimeoutException;
  * 通过加入线程的概念，让socket server能够在应用层面，
  * 通过非阻塞的方式同时处理多个socket套接字
  *
- * @author yinwenjie
+ *
  */
 public class SocketServer6 {
 
@@ -66,7 +66,7 @@ public class SocketServer6 {
  * 当然，接收到客户端的socket后，业务的处理过程可以交给一个线程来做。
  * 但还是改变不了socket被一个一个的做accept()的情况。
  *
- * @author yinwenjie
+ *
  */
 class SocketServerThread6 implements Runnable {
 

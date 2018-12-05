@@ -5,7 +5,7 @@ import java.rmi.registry.LocateRegistry;
 /**
  * 就是一个RMI注册仓库，不负责其它事情。<br>
  * 创建仓库后，锁住WAITOBJECT对象，保证整个程序不会退出
- * @author yinwenjie
+ *
  */
 public class SingleRegistry {
 

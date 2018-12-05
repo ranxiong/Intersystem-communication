@@ -12,7 +12,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * 一个SocketClientRequestThread线程模拟一个客户端请求。
- * @author yinwenjie
+ *
  */
 public class SocketClientRequestThread implements Runnable {
 

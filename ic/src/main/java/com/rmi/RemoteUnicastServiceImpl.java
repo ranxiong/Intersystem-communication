@@ -10,7 +10,7 @@ import java.util.List;
  * 请注意这里继承的是UnicastRemoteObject父类。
  * 继承于这个父类，表示这个Remote Object是“存在于本地”的RMI服务实现
  * （这句话后文会解释）
- * @author yinwenjie
+ *
  *
  */
 public class RemoteUnicastServiceImpl extends UnicastRemoteObject implements RemoteServiceInterface {

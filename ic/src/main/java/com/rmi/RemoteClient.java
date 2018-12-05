@@ -10,7 +10,7 @@ import org.apache.log4j.BasicConfigurator;
 /**
  * 客户端调用RMI测试
  *
- * @author yinwenjie
+ *
  */
 public class RemoteClient {
     static {
